@@ -8,15 +8,15 @@ const useCategoryStore = defineStore('Category', {
     return {
       // 存储一级分类的数据
       c1Arr: [],
-      // 存储一级分类的ID
+      // 存储一级分类的 ID
       c1Id: '',
       // 存储对应一级分类下二级分类的数据
       c2Arr: [],
-      // 收集二级分类的ID
+      // 收集二级分类的 ID
       c2Id: '',
       // 存储三级分类的数据
       c3Arr: [],
-      // 存储三级分类的ID
+      // 存储三级分类的 ID
       c3Id: '',
     }
   },

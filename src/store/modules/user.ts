@@ -2,6 +2,7 @@
 import { defineStore } from 'pinia'
 // 引入接口
 import { reqLogin, reqUserInfo, reqLogout } from '@/api/user'
+// 引入数据类型
 import type {
   loginFormData,
   loginResponseData,
